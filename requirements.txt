@@ -1,0 +1,17 @@
+# Versions the thesis results were produced with (Python 3.9.6, macOS, Apple silicon)
+numpy==2.0.2
+pandas==2.3.3
+scipy==1.13.1
+scikit-learn==1.6.1
+imbalanced-learn==0.12.4
+xgboost==2.1.4
+statsmodels==0.14.6
+torch==2.8.0
+shap==0.49.1
+matplotlib==3.9.4
+pyEDFlib==0.1.42
+joblib==1.5.3
+
+# optional: numba speeds up one feature in aim2/obm_library.py, optuna is only used by aim3/optimise.py
+numba==0.60.0
+optuna==5.0.0

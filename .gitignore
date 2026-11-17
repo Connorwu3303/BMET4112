@@ -1,0 +1,25 @@
+# SHHS data can't be shared (NSRR data use agreement), so no raw or derived data goes in here
+*.edf
+*.xml
+*.npy
+*.npz
+*.pt
+*.pkl
+*.joblib
+*.h5
+*.csv
+*.parquet
+processed/
+results/
+logs/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# mac
+.DS_Store
+._*
